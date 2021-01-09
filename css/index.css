@@ -136,5 +136,31 @@ button:hover{
 }
 
 @media only screen and (max-width: 500px) {
-    
+    .title-container div {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .title-container hr{
+        width:100%;
+    }
+
+    nav {
+        width:65%;
+    }
+
+    .artists-container{
+        flex-direction: column;
+        width:100%;
+        justify-content: center;
+    }
+
+    .artist {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    .artist img{
+        width:80%;
+    }
 }
